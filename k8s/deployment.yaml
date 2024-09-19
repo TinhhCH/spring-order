@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: orders
-        image: tinhch/payments:$IMAGE_TAG
+        image: tinhch/orders:$IMAGE_TAG
         ports:
         - containerPort: 8082
         resources:
